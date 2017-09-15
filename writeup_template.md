@@ -19,12 +19,13 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/undistort_output.png "Undistorted"
-[image2]: ./test_images/test1.jpg "Road Transformed"
-[image3]: ./examples/binary_combo_example.jpg "Binary Example"
-[image4]: ./examples/warped_straight_lines.jpg "Warp Example"
-[image5]: ./examples/color_fit_lines.jpg "Fit Visual"
-[image6]: ./examples/example_output.jpg "Output"
+[image1]: ./examples/undist1.jpg "Undistorted"
+[image2]: ./examples/undist_test2.jpg "Undistorted Test Image"
+[image3]: ./examples/test2_thresh.jpg "Binary Example"
+[image4]: ./examples/test2_warped.jpg "Warp Example"
+[image5]: ./examples/test2_poly.png "Fit Visual"
+[image6]: ./examples/test2_final.jpg "Output"
+[image10]: ./examples/undist_straight_lines1_t.png "pers transform"
 [video1]: ./project_video.mp4 "Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
@@ -79,7 +80,9 @@ This resulted in the following source and destination points:
 
 I verified that my perspective transform was working as expected by drawing the `src` and `dst` points onto a test image and its warped counterpart to verify that the lines appear parallel in the warped image.
 
+[image10]
 ![alt text][image4]
+
 
 #### 4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
 
