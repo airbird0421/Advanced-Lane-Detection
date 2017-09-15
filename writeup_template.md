@@ -25,7 +25,7 @@ The goals / steps of this project are the following:
 [image4]: ./examples/test2_warped.jpg "Warp Example"
 [image5]: ./examples/test2_poly.png "Fit Visual"
 [image6]: ./examples/test2_final.jpg "Output"
-[image10]: ./examples/undist_straight_lines1_t.png "pers transform"
+[image10]: ./examples/undist_straight_lines1.png "pers transform"
 [video1]: ./project_video.mp4 "Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
